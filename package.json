@@ -1,0 +1,14 @@
+{
+  "name": "fomo-cazador",
+  "version": "1.0.0",
+  "description": "Bot que escanea memecoins en BNB Chain y avisa por Telegram",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
+  }
+}
