@@ -44,7 +44,7 @@ async function scanFomo() {
   state.lastScanTime = new Date().toISOString();
   
   try {
-    const response = await fetch('https://api.dexscreener.com/latest/dex/search?q=BNB');
+    const response = await fetch('https://api.dexscreener.com/latest/dex/search?q=WBNB');
     const data = await response.json();
 
     if (!data || !data.pairs) return;
